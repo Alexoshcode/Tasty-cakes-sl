@@ -7,9 +7,19 @@ header {
   margin-left: 40px;
 }
 
+.p::first-letter {
+  font-size: 30px;
+  font-weight: bold;
+}
+
 .message {
   color: blueviolet;
   font-style: italic;
+}
+
+.message:hover {
+  color: aqua;
+  font-weight: bold;
 }
 
 span {
